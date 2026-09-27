@@ -71,7 +71,7 @@ pip install -r requirements.txt
 Lancer une campagne sur un modèle cible :
 
 ```bash
-python3 main.py llama3.2:3b
+cd src && python3 main.py llama3.2:3b
 ```
 
 Le script vérifie que le modèle est bien installé dans Ollama avant de lancer,
@@ -81,7 +81,7 @@ horodaté dans `rapport/`.
 Comparer deux rapports :
 
 ```bash
-python3 compare.py rapport/run_AAAAMMJJ_HHMMSS.json rapport/run_AAAAMMJJ_HHMMSS.json
+cd src && python3 compare.py rapport/run_AAAAMMJJ_HHMMSS.json rapport/run_AAAAMMJJ_HHMMSS.json
 ```
 
 ## Interprétation des résultats
